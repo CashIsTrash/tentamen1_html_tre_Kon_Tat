@@ -1,0 +1,90 @@
+#menu_links{
+    background: gray;
+    padding: 25px;
+}
+#menu_links a{
+    color: white;
+} 
+#table{
+    width: 50%;
+    margin-top: 50px;
+}
+.table{
+    border: 1px solid black;
+    font-size: 1em;
+}
+.table td{
+    border: 1px solid black;
+}
+#uppgift-4{
+    margin: auto;
+    margin-top: 10px;
+    background:blue;
+    height: 550px;
+    width: 1600px;
+}
+#above{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 50px;
+    height: 175px;
+    width: 300px;
+    background:green;
+    z-index: 2;
+}
+
+#under{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+    height: 175px;
+    width: 400px;
+    background: red;
+    text-align: right;
+    z-index: 1;
+}
+#under h1{
+    margin: 15px;
+}
+
+#above h1{
+    margin: 15px;
+}
+
+#uppgift-5{
+    margin-top: 25px;
+    width: 500px;
+}
+#uppgift-6{  
+    margin-top: 25px;
+    width: 50%;
+    background:rgb(126, 128, 0);
+}
+#uppgift-7 p{
+   margin: 10px;
+}
+
+#uppgift-8{  
+    margin-top: 25px;
+    width: 50%;
+    background:rgb(126, 128, 0);
+}
+#uppgift-9 p{
+    margin: 10px;
+}
+#uppgift-10{
+    margin: 10px;
+    width: 50%;
+    background:rgb(126, 128, 0);
+}
+
+@media only screen and (max-width: 450px){
+    #menu{
+        border: 2px solid black;
+        background: white;
+    }
+    #menu a{
+        color: black;
+        display: block;
+    }
+}
